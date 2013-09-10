@@ -1,0 +1,16 @@
+/system/cache/
+/application/logs
+/captcha
+/uploads
+/application/backups
+/application/config/config.php
+/application/config/database.php
+/application/modules/map/
+Thumbs.db
+.idea/
+/templates/.quarantine/
+/templates/.tmb/
+/templates/default/
+/templates/lestnisa/
+/*.csv
+*.*~
