@@ -5,7 +5,6 @@
 /application/backups
 /application/config/config.php
 /application/config/database.php
-/application/modules/map/
 Thumbs.db
 .idea/
 /templates/.quarantine/
