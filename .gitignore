@@ -10,7 +10,6 @@ Thumbs.db
 .idea/
 /templates/.quarantine/
 /templates/.tmb/
-/templates/default/
 /templates/lestnisa/
 /*.csv
 *.*~
