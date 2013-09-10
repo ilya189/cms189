@@ -26,6 +26,12 @@
         <link rel="stylesheet" type="text/css" href="/js/elfinder-2.0/css/elfinder.min.css" media="screen" charset="utf-8">
         <link rel="stylesheet" type="text/css" href="/js/elfinder-2.0/css/theme.css" media="screen" charset="utf-8">
 
+        <link rel="stylesheet" type="text/css" href="{$THEME}css/leaflet/leaflet.css">
+        <!--[if lte IE 8]><link rel="stylesheet" href="{$THEME}css/leaflet/leaflet.ie.css" /><![endif]-->
+        <link rel="stylesheet" type="text/css" href="{$THEME}css/leaflet/leaflet.draw.css">
+        <!--[if lte IE 8]><link rel="stylesheet" href="{$THEME}css/leaflet/leaflet.draw.ie.css" /><![endif]-->
+        <link rel="stylesheet" type="text/css" href="{$THEME}css/map.css">
+
     </head>
     <body>
         <div class="main_body">
@@ -289,6 +295,9 @@
         <script src="{$THEME}js/admin_base.min.js" type="text/javascript"></script>
         -->
 
+        <script type="text/javascript" src="{$THEME}js/leaflet/libs/leaflet-src.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/Leaflet.draw.js"></script>
+
         <script src="{$THEME}js/admin_base_i.js" type="text/javascript"></script>
         <script src="{$THEME}js/admin_base_m.js" type="text/javascript"></script>
         <script src="{$THEME}js/admin_base_r.js" type="text/javascript"></script>
@@ -296,6 +305,8 @@
         <script src="{$THEME}js/admin_base_y.js" type="text/javascript"></script>
         <script type="text/javascript" src="/js/tiny_mce/jquery.tinymce.js"></script>
         <script src="{$THEME}js/autosearch.js" type="text/javascript"></script>
+
+        <script type="text/javascript" src="{$THEME}js/map.js"></script>
 
         <script>
             {if $CI->uri->segment('4') == 'shop'}

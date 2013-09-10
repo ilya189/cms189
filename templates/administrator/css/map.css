@@ -1,0 +1,50 @@
+#map {
+	height:500px;
+}
+
+#map #data_load {
+	position:absolute;
+	z-index:5;
+	top:10px;
+	right:50px;
+}
+
+#west, #east, #north, #south, #zoom , #center{
+	position:absolute;
+	z-index:9999;
+}
+
+#west {
+	left:20px;
+	top:50%;
+}
+#east {
+	right:20px;
+	top:50%;
+}
+#north {
+	top:20px;
+	left:50%;
+}
+#south {
+	bottom:20px;
+	left:50%;
+}
+
+#zoom {
+	top:20px;
+	right:20px;
+}
+
+#center {
+	top:50%;
+	left:50%;
+}
+
+#map input {
+	position:absolute;
+	z-index:9999;
+	right:100px;
+	top:10px;
+	background:#000;
+}
