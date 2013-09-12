@@ -1,3 +1,5 @@
 [submodule "application/modules/map"]
+
 	path = application/modules/map
+
 	url = git@github.com:ilya189/cms-map.git
