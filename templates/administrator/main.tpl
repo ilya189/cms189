@@ -298,6 +298,33 @@
         <script type="text/javascript" src="{$THEME}js/leaflet/libs/leaflet-src.js"></script>
         <script type="text/javascript" src="{$THEME}js/leaflet/src/Leaflet.draw.js"></script>
 
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/edit/handler/Edit.Poly.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/edit/handler/Edit.SimpleShape.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/edit/handler/Edit.Circle.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/edit/handler/Edit.Rectangle.js"></script>
+
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/draw/handler/Draw.Feature.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/draw/handler/Draw.Polyline.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/draw/handler/Draw.Polygon.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/draw/handler/Draw.SimpleShape.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/draw/handler/Draw.Rectangle.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/draw/handler/Draw.Circle.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/draw/handler/Draw.Marker.js"></script>
+
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/ext/LatLngUtil.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/ext/LineUtil.Intersect.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/ext/Polygon.Intersect.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/ext/Polyline.Intersect.js"></script>
+
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/Control.Draw.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/Tooltip.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/Toolbar.js"></script>
+
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/draw/DrawToolbar.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/edit/EditToolbar.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/edit/handler/EditToolbar.Edit.js"></script>
+        <script type="text/javascript" src="{$THEME}js/leaflet/src/edit/handler/EditToolbar.Delete.js"></script>
+
         <script src="{$THEME}js/admin_base_i.js" type="text/javascript"></script>
         <script src="{$THEME}js/admin_base_m.js" type="text/javascript"></script>
         <script src="{$THEME}js/admin_base_r.js" type="text/javascript"></script>
