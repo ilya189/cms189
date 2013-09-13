@@ -77,7 +77,7 @@ var loadmap = new Object({
 		map.addControl(drawControl);
 
 		L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
+			attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a>'
 		}).addTo(map);
 		
 		var polyline1 = new L.Polyline([
@@ -90,17 +90,6 @@ var loadmap = new Object({
 		map.addLayer(polyline1);
 		polyline1.on('edit', function() {
 			$('#street_line').val(polyline1.getLatLngs());
-		});
-		
-		var polyline2 = new L.Polyline([
-			[57.12417, 61.39204],
-			[57.12461, 61.39391]
-		]);
-		polyline2.editing.enable();
-		map.addLayer(polyline2);
-		polyline2.on('edit', function() {
-		alert(polyline2.getLatLngs().join());
-			$('#street_line').val(polyline2.getLatLngs());
 		});
 		
 		map.on('draw:created', function (e) {
